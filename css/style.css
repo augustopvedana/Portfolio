@@ -431,8 +431,8 @@ nav {
 
 @media (min-width: 320px) and (max-width: 350px) {
     .intro__img {
-        height: 45vh;
-        width: 35vw;
+        height: 40vh;
+        width: 30vw;
     }
 
     .section__title--intro {

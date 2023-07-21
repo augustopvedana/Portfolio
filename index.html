@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f87d376c66.js" crossorigin="anonymous"></script>
+    <title>Augusto Vedana Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#proficiencies" class="nav__link" >Proeficiências</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Quem sou eu</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projetos</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Olá, me chamo <strong>Augusto Vedana</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev jr.</p>
+        <img src="img/augusto-front.png" alt="Foto de Augusto" class="intro__img">
+    </section>
+
+    <!-- Proficiencies -->
+    <section class="my-services" id="proficiencies">
+        <h2 class="section__title section__title--services">Proficiências</h2>
+        <div class="services">
+            <div class="service">
+                <h3>HTML/CSS</h3>
+                    <img class="img-logo" src="/img/logos/html-logo.png" alt="html-logo">
+                    <img class="img-logo" src="/img/logos/css-logo.svg" alt="css-logo">
+            </div> 
+
+            <div class="service">
+                <h3>JavaScript/TypeScript</h3>
+                    <img class="img-logo" src="/img/logos/js-logo.png" alt="js-logo">
+                    <img class="img-logo" src="/img/logos/ts-logo.png" alt="ts-logo">
+            </div> 
+
+            <div class="service">
+                <h3>React/React Native</h3>
+                <img class="img-logo" src="/img/logos/react-logo.png" alt="js-logo">
+            </div> 
+
+            <div class="service">
+                <h3>NodeJs</h3>
+                <img class="img-logo" src="/img/logos/node-logo.png" alt="js-logo">
+            </div> 
+        </div>
+        <a href="./img/Currículo 4-3.pdf" class="btn">Acesse aqui meu currículo completo</a>
+    </section>
+
+<!-- About me -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Quem sou eu</h2>
+        <p class="section__subtitle section__subtitle--about">Dev front-end com base em Lages/SC </p>
+
+        <div class="about-me__body">
+            <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid eveniet,
+            reprehenderit magni vel aspernatur blanditiis id accusamus delectus molestias
+            libero amet, repudiandae placeat minus iste cumque, illo eos quidem eius.
+            <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid eveniet,
+            reprehenderit magni vel aspernatur blanditiis id accusamus delectus molestias
+            libero amet, repudiandae placeat minus iste cumque, illo eos quidem eius.
+            </p>
+        </div>
+        <!-- img de stock -->
+        <img src="img/augusto.jpg" alt="augusto-photo" class="about-me__img">
+    </section>
+
+
+<!-- Meus Trabalhos -->
+
+    <section class="projects" id="projects">
+        <h2 class="section__title--my-work">Projetos:</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/capa-projeto/projeto-1.jpg" alt="Projeto 1" class="project-img prjt-1 disabled" />
+                <h3>Projeto 1</h3>
+                <p class="project-subtext">Esse é o projeto e mais um texto sobre o projeto</p>
+                <label>
+                    <button class="project-button"><a href="/service">Acesse Aqui</a></button>
+                </label>
+            </div>
+            <div class="project-card">
+                <img src="img/capa-projeto/projeto-2.jpg" alt="Projeto 2" class="project-img prjt-2 disabled" />
+                <h3>Projeto 2</h3>
+                <p class="project-subtext">Esse é o projeto e mais um texto sobre o projeto</p>
+                <label>
+                    <button class="project-button"><a href="/service">Acesse Aqui</a></button>
+                </label>
+            </div>
+            <div class="project-card">
+                <img src="img/capa-projeto/projeto-3.jpg" alt="Projeto 3" class="project-img prjt-3 disabled" />
+                <h3>Projeto 3</h3>
+                <p class="project-subtext">Esse é o projeto e mais um texto sobre o projeto</p>
+               <label>
+                   <button class="project-button"><a href="/service">Acesse Aqui</a></button>
+               </label>
+            </div>
+            <div class="project-card">
+                <img src="img/capa-projeto/projeto-4.jpg" alt="Projeto 4" class="project-img prjt-4 disabled" />
+                <h3>Projeto 4</h3>
+                <p class="project-subtext">Esse é o projeto e mais um texto sobre o projeto</p> 
+                    <label>
+                        <button class="project-button"><a href="/service">Acesse Aqui</a></button>
+                    </label>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- footer -->
+    <footer class="footer" id="contact">
+       <div class="copy-component">
+        <h3 class="contact">Contato:</h3>
+            <label class="footer__link--label"> <a href="mailto:augusto.vedana@outlook.com" class="footer__link">augusto.vedana@outlook.com</a></label>
+            <button onclick="copyEmail()" class="copy-btn">
+                <i class="fa-solid fa-copy"></i>
+                Copiar
+            </button>
+        </div>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/augusto-vedana/" target="_blank" class="social-list__link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/augustopvedana" target="_blank" class="social-list__link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        
+        </ul>
+    </footer>
+
+    <script type="text/javascript" src="js/copyEmail.js"></script>
+    <script type="text/javascript" src="js/navToggle.js"></script>
+
+</body>
+</html> 

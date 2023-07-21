@@ -415,21 +415,35 @@ nav {
     }
 }
 
-@media (min-width: 350px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 400px) {
+    .intro {
+        display: grid;
+        grid-template-areas: 
+        "title img"
+        "subtitle subtitle";
+    }
+    
     .intro__img {
-        height: 42vh;
+        height: 40vh;
         width: 30vw;
+        grid-area: img;
+        justify-self: right;
 
     }
     .section__title--intro {
-        font-size: 35px;
+        font-size: 2em;
+        justify-self: left;
         height: 45vh;
         width: 35vw;
+        grid-area: title;
+    }
+    .section__subtitle--intro {
+        grid-area: subtitle;
     }
 
 }
 
-@media (min-width: 320px) and (max-width: 350px) {
+/* @media (min-width: 320px) and (max-width: 350px) {
     .intro__img {
         height: 40vh;
         width: 30vw;
@@ -453,7 +467,7 @@ nav {
         height: 50vh;
         width: 40vw;
     }
-}
+} */
 
 /* proficiency */
 

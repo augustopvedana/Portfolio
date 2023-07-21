@@ -908,7 +908,7 @@ nav {
          height: 100%;
          max-height: 100vh;   
         margin-bottom: 1em;
-        transition: box-shadow 500ms, width 500ms, height 50ms;
+        transition: box-shadow 500ms;
     }
 
     .project-img {

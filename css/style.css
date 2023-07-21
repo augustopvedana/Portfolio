@@ -418,24 +418,30 @@ nav {
 @media (min-width: 320px) and (max-width: 400px) {
     .intro {
         display: grid;
+        grid-template-columns: fit-content(50%) auto;
         grid-template-areas: 
         "title img"
         "subtitle subtitle";
+        gap: 0;
+        grid-column: 1/-1;
     }
     
     .intro__img {
         height: 40vh;
-        width: 30vw;
+        width: 40vmin;
         grid-area: img;
-        justify-self: right;
-
+        justify-self: self-end;
+    }
+    .intro__img img {
+        width: 25vw;
     }
     .section__title--intro {
-        font-size: 2em;
+        font-size: 10vmin;
         justify-self: left;
         height: 45vh;
-        width: 35vw;
+        width: 37vw;
         grid-area: title;
+        position: relative;
     }
     .section__subtitle--intro {
         grid-area: subtitle;

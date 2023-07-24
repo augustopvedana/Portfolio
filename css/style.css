@@ -751,7 +751,6 @@ nav {
 }
 
 .project-card:hover {
-    scale: 1.005;
     filter: blur(0);
     box-shadow: 5px 5px 8px rgb(75, 71, 71);
 }
@@ -909,10 +908,6 @@ nav {
         max-height: 120px;
         width: 150px;
     }
-    .project-img:hover {
-        width: 101%;
-        height: 101%;
-    }
     .project-button {
         height: 3em;
         position: absolute;
@@ -923,8 +918,6 @@ nav {
         pointer-events: none;
     }
     .project-card:hover { 
-        width: 101%;
-        height: 101%;
         box-shadow: 5px 5px 8px rgb(108, 104, 104);
     }
 }

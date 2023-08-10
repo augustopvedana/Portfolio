@@ -708,7 +708,7 @@ nav {
 }
 
 .project-card {
-    width: 20vw;
+    max-width: 20vw;
     height: auto;
     position: relative;
     border: 1px solid var(--clr-dark);
@@ -731,7 +731,9 @@ nav {
 
 .project-img {
     margin: 15px auto auto auto;
+    object-fit: cover;
     width: 200px;
+    height: 15vw;
     border: solid 0.25px var(--clr-dark);
     border-radius: 5px;
     align-content: stretch;
@@ -790,7 +792,7 @@ nav {
         height: 19em;
         width: 25vw;
         min-width: 15em;
-        margin-bottom: 1em;
+        margin-bottom: 1.5em;
         /* display: block; */
     }
 
@@ -836,8 +838,11 @@ nav {
     }
 
     .project-img {
-        height: 8em;
-        width: 180px;
+        height: 7.5em;
+        width: 8em;
+        margin: auto;
+        position: relative;
+        bottom: -5px;
     }
 
     .project-button {
